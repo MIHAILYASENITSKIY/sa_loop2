@@ -91,7 +91,7 @@ padding: .5em 0 .5em .5em;
   }
   /*Header style start*/
   .header {
-    background-color: black;
+    background-color:blue;
     position: fixed;
     top: 0;
     left: 0;
@@ -126,9 +126,27 @@ padding: .5em 0 .5em .5em;
   /*Header style end*/
 
  /*Income style start*/
+
  .income {
    height: 100vh;
    background-image: url() no-repeat center;
    background-size: cover;
+   padding-top: 147px;
+ }
+ .income_title {
+   max-width: 538px;
+   font-weight: 558px;
+   font-size: 50px;
+   line-height: 60px;
+   color: white;
+   margin-bottom: 18px;
+ }
+ .income_subtitle {
+   max-width: 538px;
+   color: black;
+   font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 145px;
  }
  /*Income style end*/
